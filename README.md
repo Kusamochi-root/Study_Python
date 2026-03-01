@@ -1,5 +1,6 @@
 # Study_Python
 
+2026.3.1
 Python Arithmetic Operators
 | Operation        |  Operator  | Example    | Result | Description            |
 | Addtion          | +          | 10+5       | 15     | Adds values            |
