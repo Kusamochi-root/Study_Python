@@ -4,30 +4,19 @@ This repository is for learning Python basics.
 
 ## What I study
 - Variables and data types
+- Arithmetic operators
 - if statements
-- for loops
+- for / while loops
 - functions
+- list and dictionary
 - file handling
+- error handling
 
 ## Structure
-- basic/ : basic syntax practice
-- practice/ : small exercises
+- basic/ : basic syntax practice  
+- practice/ : small exercises  
 
-## Goal
-To understand Python fundamentals.
-
-
-## 2026.3.1 Arithmetic Operators
-
-| Operation | Operator | Example | Result | Description |
-|-----------|----------|---------|--------|-------------|
-| Addition | + | 10 + 5 | 15 | Adds values |
-| Subtraction | - | 10 - 5 | 5 | Subtracts values |
-| Multiplication | * | 4 * 3 | 12 | Multiplies |
-| Division | / | 10 / 4 | 2.5 | Divides |
-| Floor Division | // | 10 // 4 | 2 | Integer division |
-| Modulo | % | 10 % 3 | 1 | Remainder |
-| Exponentiation | ** | 2 ** 3 | 8 | Power |
+---
 
 ## Python Basic Commands
 
@@ -42,7 +31,9 @@ To understand Python fundamentals.
 | float() | float("3.14") | Convert to float |
 | str() | str(123) | Convert to string |
 
-## Control Statements
+---
+
+## Control Statements (if / for / while)
 
 | Statement | Example | Description |
 |-----------|---------|-------------|
@@ -52,14 +43,7 @@ To understand Python fundamentals.
 | break | break | Exit loop |
 | continue | continue | Skip current loop |
 
-## Loops (for / while)
-
-| Statement | Example | Description |
-|-----------|---------|-------------|
-| for | for i in range(5): | Repeat with a counter |
-| while | while x < 10: | Repeat while condition is true |
-| break | break | Exit loop |
-| continue | continue | Skip current loop |
+---
 
 ## Data Structures (list / dict)
 
@@ -72,6 +56,8 @@ To understand Python fundamentals.
 | keys | d.keys() | Get keys |
 | values | d.values() | Get values |
 
+---
+
 ## Functions
 
 | Keyword | Example | Description |
@@ -79,6 +65,8 @@ To understand Python fundamentals.
 | def | def add(a, b): | Define function |
 | return | return a + b | Return value |
 | argument | add(3, 5) | Call function |
+
+---
 
 ## File Handling
 
@@ -90,6 +78,8 @@ To understand Python fundamentals.
 | close | f.close() | Close file |
 | with | with open("a.txt") as f: | Safe file open |
 
+---
+
 ## Error Handling
 
 | Keyword | Example | Description |
@@ -98,10 +88,11 @@ To understand Python fundamentals.
 | except | except ValueError: | Catch error |
 | finally | finally: | Always run |
 
-## Class
+---
 
-| Keyword | Example | Description |
-|---------|---------|-------------|
-| class | class Dog: | Define class |
-| __init__ | def __init__(self, name): | Constructor |
-| self | self.name = name | Instance variable |
+## How to run
+
+Run a Python file like this:
+
+```bash
+python basic/if_example.py
