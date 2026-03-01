@@ -51,3 +51,31 @@ To understand Python fundamentals.
 | while | while x < 10: | Loop while condition is true |
 | break | break | Exit loop |
 | continue | continue | Skip current loop |
+
+## Loops (for / while)
+
+| Statement | Example | Description |
+|-----------|---------|-------------|
+| for | for i in range(5): | Repeat with a counter |
+| while | while x < 10: | Repeat while condition is true |
+| break | break | Exit loop |
+| continue | continue | Skip current loop |
+
+## Data Structures (list / dict)
+
+| Type | Example | Description |
+|------|---------|-------------|
+| list | a = [1, 2, 3] | Store multiple values |
+| dict | d = {"a":1, "b":2} | Key-value data |
+| append | a.append(4) | Add item to list |
+| pop | a.pop() | Remove item |
+| keys | d.keys() | Get keys |
+| values | d.values() | Get values |
+
+## Functions
+
+| Keyword | Example | Description |
+|---------|---------|-------------|
+| def | def add(a, b): | Define function |
+| return | return a + b | Return value |
+| argument | add(3, 5) | Call function |
