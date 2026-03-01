@@ -79,3 +79,29 @@ To understand Python fundamentals.
 | def | def add(a, b): | Define function |
 | return | return a + b | Return value |
 | argument | add(3, 5) | Call function |
+
+## File Handling
+
+| Function | Example | Description |
+|----------|---------|-------------|
+| open | f = open("test.txt", "r") | Open file |
+| read | f.read() | Read file |
+| write | f.write("hello") | Write file |
+| close | f.close() | Close file |
+| with | with open("a.txt") as f: | Safe file open |
+
+## Error Handling
+
+| Keyword | Example | Description |
+|---------|---------|-------------|
+| try | try: | Try code |
+| except | except ValueError: | Catch error |
+| finally | finally: | Always run |
+
+## Class
+
+| Keyword | Example | Description |
+|---------|---------|-------------|
+| class | class Dog: | Define class |
+| __init__ | def __init__(self, name): | Constructor |
+| self | self.name = name | Instance variable |
