@@ -1,5 +1,21 @@
 # Study_Python
 
+This repository is for learning Python basics.
+
+## What I study
+- Variables and data types
+- if statements
+- for loops
+- functions
+- file handling
+
+## Structure
+- basic/ : basic syntax practice
+- practice/ : small exercises
+
+## Goal
+To understand Python fundamentals.
+
 2026.3.1
 Python Arithmetic Operators
 | Operation        |  Operator  | Example    | Result | Description            |
