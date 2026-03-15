@@ -90,9 +90,3 @@ This repository is for learning Python basics.
 
 ---
 
-## How to run
-
-Run a Python file like this:
-
-```bash
-python basic/if_example.py
